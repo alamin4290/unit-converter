@@ -25,7 +25,7 @@ convertBtnv.addEventListener('click', function() {
    result(lengthResult, volumeResult, massResult);
 })
 
-resetBtn.addEventListener('dblclick', function() {
+resetBtn.addEventListener('click', function() {
     userInput.value = '';
     lengthResult.textContent = '';
     volumeResult.textContent = '';
